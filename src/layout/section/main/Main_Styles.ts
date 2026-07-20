@@ -2,7 +2,6 @@ import styled from "styled-components";
 import {theme} from "../../../styles/Theme.tsx";
 import {FlexWrapper} from "../../../components/FlexWrapper.ts";
 import {font} from "../../../styles/Common.tsx";
-// import mask from "../../../assets/icons/maskYellow.svg";
 
 const Main = styled.section`
   padding-block: 55px 182px;
@@ -78,7 +77,7 @@ const PhotoWrapper = styled.div`
   height: 877px;
 
   background-color: ${theme.colors.accent};
-  mask-image: url(${import.meta.env.BASE_URL + "icons/maskYellow.svg"});
+  mask-image: url("./icons/maskYellow.svg");
   mask-repeat: no-repeat;
   mask-position: left bottom;
   mask-size: cover;

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import {theme} from "../../styles/Theme.tsx";
-import footerLine from "../../assets/icons/yellowLine.svg";
 
 const Footer = styled.footer`
   padding-top: 28px;
@@ -19,7 +18,7 @@ const Footer = styled.footer`
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(${footerLine});
+    background-image: url("./icons/yellowLine.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% 100%;

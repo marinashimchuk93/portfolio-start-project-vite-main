@@ -1,7 +1,5 @@
 import {theme} from "../../styles/Theme.tsx";
 import styled, {keyframes} from "styled-components";
-import testimony from "../../assets/icons/testimony.svg";
-import arrow from "../../assets/icons/arrow.svg";
 
 const fadeIn = keyframes`
   from {
@@ -40,7 +38,7 @@ const Slide = styled.figure`
     left: 52px;
     width: 40px;
     height: 32px;
-    background-image: url(${testimony});
+    background-image: url("./icons/testimony.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
@@ -54,7 +52,7 @@ const Slide = styled.figure`
     right: 52px;
     width: 40px;
     height: 32px;
-    background-image: url(${testimony});
+    background-image: url("./icons/testimony.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
@@ -164,7 +162,7 @@ const ArrowButton = styled.button`
     transform: translate(-50%, -50%);
     width: 50px;
     height: 25px;
-    background-image: url(${arrow});
+    background-image: url("./icons/arrow.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
