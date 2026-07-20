@@ -4,7 +4,7 @@ import {TabMenu, TabsStatusType} from "./tabmenu/TabMenu.tsx";
 import {Project} from "./project/Project.tsx";
 import projOne from "../../../assets/images/projects-photo-1.png";
 import projTwo from "../../../assets/images/projects-photo-2.png";
-import projThree from "../../../assets/images/projects-photo-3.png"
+import projThree from "../../../assets/images/projects-photo-3.png";
 import {Container} from "../../../components/Container.ts";
 import {S} from "./Projects_Styles.ts";
 import {AnimatePresence, motion} from "motion/react";
