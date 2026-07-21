@@ -10,9 +10,9 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
-  html {
-    height: 100%;
-  }
+  //html {
+  //  height: 100%;
+  //}
 
   body {
     min-height: 100%;
@@ -31,19 +31,13 @@ export const GlobalStyle = createGlobalStyle`
   body, html {
     overflow-x: hidden;
   }
-
-  body.menu-open {
-    overflow: hidden;
-  }
-
+  
   ul {
     list-style: none;
   }
 
   a,
-  button,
-  label,
-  input {
+  button {
     cursor: pointer;
   }
 
